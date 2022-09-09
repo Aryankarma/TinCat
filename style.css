@@ -1,0 +1,203 @@
+body{
+    font-family: 'montserrat';
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+/* for navigation bar */
+.navbar-brand{
+    font-family:'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4rem;
+    padding-left: 0;
+}
+
+.nav-item{
+    padding: 0 15px;
+}
+.nav-item:hover{
+    color: white;
+}
+
+.btn{
+    margin: 20px 8px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.3rem;
+    color: white;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: 'Montserrat-bold', sans-serif;;
+    font-weight: 900;
+}
+
+h3{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.featurebox{
+    padding:20px;
+}
+
+.featurebox i
+{
+    color: #ef8172;
+    font-size: 4em;
+    padding: 15px;
+}
+
+.featurebox i:hover
+{
+    color: #ff4c68;
+}
+
+#features{
+    text-align: center;
+    padding:80px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.container-fluid{
+    padding: 3% 8% 7%;
+}
+
+/* title image */
+.phoneimg{
+    width: 60%;
+    margin-left: 50px;
+    transform: rotate(20deg);
+    position: absolute;
+    right:70px;
+}
+
+@media (max-width:990px) {
+    .phoneimg{
+        position: static;
+        margin-left: 80px;
+        padding: 50px 0;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+#testimonials{
+    background-color: #ef8172;
+    padding: 70px 0 40px 0;
+    text-align: center;
+}
+
+#testimonials h2{
+    color: white;
+    line-height: 1.5;
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: 800;
+    font-size: 2.1rem;
+    padding: 0 120px;
+}
+
+.catimg{
+    border-radius: 100%;
+    width: 14%;
+    padding:20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+#press img{
+    width: 20%;
+    padding: 35px 25px 85px 25px;
+}
+
+#pricing{
+    text-align: center;
+    padding: 65px 40px;
+}
+
+.empty{
+    padding: 12px;
+}
+
+.card-deck{
+    margin-left: 63px;
+}
+
+.card{
+    margin: 20px;
+}
+
+.btn-block{
+    margin: 0;
+}
+
+#cta{
+    background-color: #ff4c68;
+   
+    padding: 30px 80px;
+    text-align: center;
+}
+.cta{
+    font-family: 'montserrat';
+    font-weight: 700;
+    font-size: 2.5rem ;
+    padding: 40px 50px 30px 50px ;
+    color: white;
+}
+
+.btn{
+    margin-bottom: 0;
+}
+
+#footer{
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+#footer p{
+    color: rgb(129, 125, 125);
+    margin-bottom: 20px;
+}
+
+.btn1{
+    margin: 15px 10px;
+    margin-bottom: 50px;
+}
+
+.sociallogo{
+    padding: 10px;
+    margin-top: 20px;
+}
+.ddark{
+    color: black;
+}
+.ddark:hover{
+    color: #ff4c68;
+}
+
+.btnhvr:hover{
+    color: #ff4c68;
+}
